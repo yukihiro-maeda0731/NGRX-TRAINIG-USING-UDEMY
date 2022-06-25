@@ -7,6 +7,7 @@ import {GetFeedEffect} from './store/effects/getFeed.effect'
 import {reducers} from './store/reducers'
 import {StoreModule} from '@ngrx/store'
 import {RouterModule} from '@angular/router'
+import {BannerModule} from '../banner/banner.module'
 
 @NgModule({
   imports: [
